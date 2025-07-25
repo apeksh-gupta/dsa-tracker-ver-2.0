@@ -1,0 +1,91 @@
+import { DSAData } from '../types';
+
+export const sampleData: DSAData = {
+  topics: [
+    {
+      id: '1',
+      name: 'Arrays & Hashing',
+      description: 'Array manipulation and hash table problems',
+      dateAdded: new Date().toISOString(),
+      questions: [
+        {
+          id: '1-1',
+          title: 'Two Sum',
+          difficulty: 'Easy',
+          link: 'https://leetcode.com/problems/two-sum/',
+          notes: 'Use hash map for O(n) solution',
+          status: 'solved',
+          dateAdded: new Date().toISOString(),
+          lastModified: new Date().toISOString(),
+        },
+        {
+          id: '1-2',
+          title: 'Valid Anagram',
+          difficulty: 'Easy',
+          link: 'https://leetcode.com/problems/valid-anagram/',
+          notes: '',
+          status: 'attempted',
+          dateAdded: new Date().toISOString(),
+          lastModified: new Date().toISOString(),
+        },
+        {
+          id: '1-3',
+          title: 'Group Anagrams',
+          difficulty: 'Medium',
+          link: 'https://leetcode.com/problems/group-anagrams/',
+          notes: '',
+          status: 'not-started',
+          dateAdded: new Date().toISOString(),
+          lastModified: new Date().toISOString(),
+        },
+      ],
+    },
+    {
+      id: '2',
+      name: 'Two Pointers',
+      description: 'Problems solved using two pointer technique',
+      dateAdded: new Date().toISOString(),
+      questions: [
+        {
+          id: '2-1',
+          title: 'Valid Palindrome',
+          difficulty: 'Easy',
+          link: 'https://leetcode.com/problems/valid-palindrome/',
+          notes: 'Remember to handle alphanumeric only',
+          status: 'solved',
+          dateAdded: new Date().toISOString(),
+          lastModified: new Date().toISOString(),
+        },
+        {
+          id: '2-2',
+          title: '3Sum',
+          difficulty: 'Medium',
+          link: 'https://leetcode.com/problems/3sum/',
+          notes: '',
+          status: 'not-started',
+          dateAdded: new Date().toISOString(),
+          lastModified: new Date().toISOString(),
+        },
+      ],
+    },
+    {
+      id: '3',
+      name: 'Sliding Window',
+      description: 'Sliding window pattern problems',
+      dateAdded: new Date().toISOString(),
+      questions: [
+        {
+          id: '3-1',
+          title: 'Best Time to Buy and Sell Stock',
+          difficulty: 'Easy',
+          link: 'https://leetcode.com/problems/best-time-to-buy-and-sell-stock/',
+          notes: 'Track minimum price and maximum profit',
+          status: 'attempted',
+          dateAdded: new Date().toISOString(),
+          lastModified: new Date().toISOString(),
+        },
+      ],
+    },
+  ],
+  lastUpdated: new Date().toISOString(),
+};
